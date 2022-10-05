@@ -1,1 +1,2 @@
-palabras = ["Sandro", "Gustavo", "Buenardo", "Malardo", "Nano", "Wanted", "Gates"]
+palabras = ["Sandro", "Gustavo", "Buenardo", "Malardo", "Nano", "Wanted", "Gates",
+'Watafak', 'postman']

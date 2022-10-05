@@ -31,18 +31,18 @@ def hangman():
                 print('')
             else:
                 vidas = vidas - 1
-                print('n\Tu letra', usar_letra, 'No esta en la palabra')
+                print('\nTu letra', usar_letra, 'No esta en la palabra')
     
         elif usar_letra in letras_usadas:
-            print('n\Ya has usado esta letra. Por favor, usa una nueva')
+            print('\nYa has usado esta letra. Por favor, usa una nueva')
 
         else:
-            print('n\Caracter invalido. Por facor, usa un caracter valido')
+            print('\nCaracter invalido. Por facor, usa un caracter valido')
 
     if vidas == 0:
-        print('Has muerto. La oalabra fue ', adivinar_palabra)
+        print('Has muerto. La palabra fue ', adivinar_palabra)
     else:
-        print('Yeah Adivinaste la palabra', adivinar_palabra)
+        print('Yeah Adivinaste la palabra', adivinar_palabran)
     
 
 if __name__ == '__main__':
